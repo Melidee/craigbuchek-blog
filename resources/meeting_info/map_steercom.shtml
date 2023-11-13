@@ -1,8 +1,8 @@
 <html>
 <head>
 <title>St. Louis UNIX Users Group</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<meta http-equiv="keywords" content="Open Systems, Unix, Linux, OpenBSD, SIG, LUG, St. Louis, Missouri, MO, User Group, Meeting, Presentation, Tutorial">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Open Systems, Unix, Linux, OpenBSD, SIG, LUG, St. Louis, Missouri, MO, User Group, Meeting, Presentation, Tutorial" http-equiv="keywords"/>
 <style type="text/css">
 <!--
 .header { font-family: Arial, Helvetica, sans-serif; font-size: 15px; font-weight: bold; color: #000000; }
@@ -13,7 +13,6 @@ A.footer:hover {color: #006666; text-decoration: none; }
 .footer2 { font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #333333; text-decoration: none; }
 -->
 </style>
-
 <!-- Navigation Menu -->
 <style>
 all.clsMenuItemNS, .clsMenuItemIE{text-decoration: none; font: bold 12px Arial; color: white; cursor: hand; z-index:100}
@@ -22,8 +21,7 @@ all.clsMenuItemNS, .clsMenuItemIE{text-decoration: none; font: bold 12px Arial; 
 <script language="JavaScript" src="/test/js/headmenu.js"></script>
 <!-- End Navigation Menu -->
 </head>
-
-<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<body bgcolor="#FFFFFF" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
 <!-- Navigation Menu -->
 <script language="JavaScript" src="/test/js/menu.js"></script>
 <script language="JavaScript" src="/test/js/menucontext.js"></script>
@@ -38,7 +36,7 @@ setTimeout("UpdateIt()", 200);
 }
 UpdateIt();
 </script>
-<NOSCRIPT>&nbsp;
-<a href="http://www.sluug.org/">Home</a>&nbsp;|
-<a href="http://www.sluug.org/test/aboutus/">About Us</a>&nbsp;|
-<a href="http://www.sluug.org/test/resources/"
+<noscript> 
+<a href="http://www.sluug.org/">Home</a> |
+<a href="http://www.sluug.org/test/aboutus/">About Us</a> |
+&lt;a href="http://www.sluug.org/test/resources/"</noscript></body></html>

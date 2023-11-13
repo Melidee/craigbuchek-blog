@@ -596,7 +596,7 @@ a:hover {
 	color: #21759b;
 }
 .main-navigation ul.nav-menu,
-.main-navigation div.nav-menu > ul {
+.main-navigation div.nav-menu &gt; ul {
 	display: none;
 }
 .main-navigation ul.nav-menu.toggled-on,
@@ -1449,7 +1449,7 @@ img#wpstats {
 /* =Media queries
 -------------------------------------------------------------- */
 
-/* Does the same thing as <meta name="viewport" content="width=device-width">,
+/* Does the same thing as <meta content="width=device-width" name="viewport"/>,
  * but in the future W3C standard way. -ms- prefix is required for IE10+ to
  * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
  * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
@@ -1502,7 +1502,7 @@ img#wpstats {
 		margin-bottom: 0;
 	}
 	.main-navigation ul.nav-menu,
-	.main-navigation div.nav-menu > ul {
+	.main-navigation div.nav-menu &gt; ul {
 		border-bottom: 1px solid #ededed;
 		border-top: 1px solid #ededed;
 		display: inline-block !important;
@@ -1549,9 +1549,9 @@ img#wpstats {
 		top: 0;
 		left: 100%;
 	}
-	.main-navigation ul li:hover > ul,
-	.main-navigation ul li:focus > ul,
-	.main-navigation .focus > ul {
+	.main-navigation ul li:hover &gt; ul,
+	.main-navigation ul li:focus &gt; ul,
+	.main-navigation .focus &gt; ul {
 		border-left: 0;
 		clip: inherit;
 		overflow: inherit;
@@ -1576,10 +1576,10 @@ img#wpstats {
 		background: #e3e3e3;
 		color: #444;
 	}
-	.main-navigation .current-menu-item > a,
-	.main-navigation .current-menu-ancestor > a,
-	.main-navigation .current_page_item > a,
-	.main-navigation .current_page_ancestor > a {
+	.main-navigation .current-menu-item &gt; a,
+	.main-navigation .current-menu-ancestor &gt; a,
+	.main-navigation .current_page_item &gt; a,
+	.main-navigation .current_page_ancestor &gt; a {
 		color: #636363;
 		font-weight: bold;
 	}
@@ -1751,7 +1751,7 @@ img#wpstats {
 	}
 
 	/* Comments */
-	.commentlist > li.comment {
+	.commentlist &gt; li.comment {
 		background: none;
 		position: relative;
 		width: auto;
